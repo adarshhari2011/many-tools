@@ -1,0 +1,10 @@
+def simple_interest(principal,annual_interest,time):
+  return (annual_interest*100)*principal*time
+def compound_intrest(principal,annual_interest,time):
+  return principal*(1+(annual_interest/100))**time
+def USD_to_INR(USD):
+  return (USD*82.90)
+def INR_to_USD(INR):
+  return (INR/82.90)
+def income_tax(income,tax):
+  return (income*12)*((tax/100)+1)
